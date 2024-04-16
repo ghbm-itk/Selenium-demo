@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Super Calculator!</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <h1>Super calculator!</h1>
+    <input id="input1" type="number">
+
+    <select name="operatorSelect">
+        <option>+</option>
+        <option>-</option>
+        <option>*</option>
+        <option>/</option>
+    </select>
+
+    <input id="input2" type="number">
+    <button onclick="buttonClick()">Calculate!</button>
+
+    <div style="background-color: red; height: 20px;">
+        <p>RED!</p>
+    </div>
+
+    <div style="background-color: beige;">
+        <p>The result will be shown below!</p>
+        <p>Please enter some input values and press 'Calculate!'</p>
+        <p>The result will be shown above!</p>
+    </div>
+
+    <div style="background-color: green; height: 20px;">
+        <p>GREEN!</p>
+    </div>
+
+	<script src="script.js"></script>
+  </body>
+
+</html>
